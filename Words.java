@@ -19,7 +19,7 @@ public class Words {
 	 * Creates a words object with the words in a String array
 	 * @throws FileNotFoundException
 	 */
-	public Words() throws FileNoptFoundException {
+	public Words() throws FileNotFoundException {
 		File inFile = new File("1000words.txt");
 		
 		Scanner in = new Scanner(inFile);
